@@ -1,6 +1,44 @@
 <!DOCTYPE HTML>
 <html lang="en">
    <head>
+      <script>
+         window.onload = function() {
+           let placeholders = document.getElementsByClassName("placeholder")
+           for (let element of placeholders) {
+             element.innerHTML = `
+               <div class="inner">
+                 <div>
+                   <ul id="buttons01" class="style1 buttons">
+                     <li style="opacity: 1; transform: none;"><a href="#furuya" class="button n01">Furuya 古⾕</a></li>
+                     <li style="opacity: 1; transform: none;"><a href="#aoyama" class="button n02">Aoyama ⻘⼭</a></li>
+                     <li style="opacity: 1; transform: none;"><a href="#natsuiro" class="button n03">Natsuiro 夏⾊</a></li>
+                   </ul>
+                 </div>
+                 <div>
+                   <ul id="buttons02" class="style1 buttons">
+                     <li style="opacity: 1; transform: none;"><a href="#usui" class="button n01">Usui ⾅井</a></li>
+                     <li style="opacity: 1; transform: none;"><a href="#uchiyama" class="button n02">Uchiyama 内山</a></li>
+                     <li style="opacity: 1; transform: none;"><a href="#kaneko" class="button n03">Kaneko 金子</a></li>
+                   </ul>
+                 </div>
+                 <div>
+                   <ul id="buttons09" class="style1 buttons">
+                     <li style="opacity: 1; transform: none;"><a href="#ogawa" class="button n01">Ogawa 小川</a></li>
+                     <li style="opacity: 1; transform: none;"><a href="#hikami" class="button n02">Hikami 日神</a></li>
+                     <li style="opacity: 1; transform: none;"><a href="#umemoto" class="button n03">Umemoto 梅本</a></li>
+                   </ul>
+                 </div>
+                 <div>
+                   <ul id="buttons12" class="style1 buttons">
+                     <li style="opacity: 1; transform: none;"><a href="#home" class="button n00">Back</a></li>
+                   </ul>
+                 </div>
+               </div>
+               `
+           }
+         }
+       
+       </script>
       <title>佳世 Ver. 01-5.5</title>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
@@ -31,38 +69,11 @@
                   <span>佳世 Ver. 01-5.5</span>
                   </h1>
                   <p id="text12" class="style1"><span>Name: 佳世 (Kayo)</span><br><span>Age: 17</span><br><span>Tag:（佳世）</span><br><br><span><span style="color:#FF0000"> ! Please Read ! </span>Triple age explanation; (It's complicated)<span style="color:#FF0000";> ! Please Read ! </span></span><br><span>Age (Self): is how old they say they are.</span><br><span>Age (Visible): is how old the alter is to other alters.</span><br><span>Age (Stressed): is how mature an alter is when stressed. (Based on our own life)</span><br><span>Maturity: is how mature an alter is regularly.</span></p>
-                  <div id="container01" class="container columns">
-                     <div class="wrapper">
-                        <div class="inner">
-                           <div>
-                              <ul id="buttons01" class="style1 buttons">
-                                 <li><a href="#furuya" class="button n01">Furuya 古⾕</a></li>
-                                 <li><a href="#aoyama" class="button n02">Aoyama ⻘⼭</a></li>
-                                 <li><a href="#natsuiro" class="button n03">Natsuiro 夏⾊</a></li>
-                              </ul>
-                           </div>
-                           <div>
-                              <ul id="buttons02" class="style1 buttons">
-                                 <li><a href="#usui" class="button n01">Usui ⾅井</a></li>
-                                 <li><a href="#uchiyama" class="button n02">Uchiyama 内山</a></li>
-                                 <li><a href="#kaneko" class="button n03">Kaneko 金子</a></li>
-                              </ul>
-                           </div>
-                           <div>
-                              <ul id="buttons09" class="style1 buttons">
-                                 <li><a href="#ogawa" class="button n01">Ogawa 小川</a></li>
-                                 <li><a href="#hikami" class="button n02">Hikami 日神</a></li>
-                                 <li><a href="#umemoto" class="button n03">Umemoto 梅本</a></li>
-                              </ul>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
+                  <div class="placeholder"></div>
                </section>
                <ul id="buttons12" class="style1 buttons">
-                           <li><a href="#home" class="button n00">Back</a></li>
-                        </ul><br><br><br><br><br><br><br><br><br>
                <section id="furuya-section">
+                  <div class="placeholder"></div>
                   <hr id="divider03" class="full screen">
                   <p id="text01" data-scroll-id="aiyu" data-scroll-behavior="previous" data-scroll-offset="0" class="style1"><span>Aiyu Furuya 古⾕愛苺夢</span><br><br><span>Age (Self): 17</span><br><span>Age (Visible): 18</span><br><span>Age (Stressed): 16</span><br><span>Maturity: Immature</span><br><span>Height: 5’10</span><br><span>Birthday: Feb 15th</span><br><br><span>Gender: Male</span><br><span>Pronouns: She/Her</span><br><span>Orientation: Straight</span><br><br><span>Partners: Ryūku</span><br><span>Parents:</span><br><span>Children: Tomoe</span><br><span>Siblings:</span><br><br><span>Alters&#39; Role:</span><br><span>Extra Info:</span></p>
                   <hr id="divider03" class="full screen">
@@ -72,16 +83,19 @@
                   <hr id="divider03" class="full screen">
                </section>
                <section id="aoyama-section">
+                  <div class="placeholder"></div>
                   <hr id="divider03" class="full screen">
                   <p id="text05" data-scroll-id="honoo" data-scroll-behavior="previous" data-scroll-offset="0" class="style1"><span>Honō Aoyama ⻘⼭炎</span><br><br><span>Age (Self): 9</span><br><span>Age (Visible): 8</span><br><span>Age (Stressed): 8</span><br><span>Maturity: Immature</span><br><span>Height: 4&#39;3</span><br><span>Birthday: July 8th</span><br><br><span>Gender: Girl</span><br><span>Pronouns: She/Her</span><br><span>Orientation: ?</span><br><br><span>Partners: Gumi</span><br><span>Parents:</span><br><span>Children:</span><br><span>Siblings:</span><br><br><span>Alters&#39; Role: Little</span><br><span>Extra Info:</span></p>
                   <hr id="divider03" class="full screen">
                </section>
                <section id="natsuiro-section">
+                  <div class="placeholder"></div>
                   <hr id="divider03" class="full screen">
                   <p id="text06" data-scroll-id="katsumi" data-scroll-behavior="previous" data-scroll-offset="0" class="style1"><span>Katsumi Natsuiro 夏⾊勝実</span><br><br><span>Age (Self): 18</span><br><span>Age (Visible): 17</span><br><span>Age (Stressed): 16</span><br><span>Maturity: Immature</span><br><span>Height: 5&#39;3</span><br><span>Birthday: September 5th</span><br><br><span>Gender: Girl</span><br><span>Pronouns: She/Her</span><br><span>Orientation: Ace, Biro</span><br><br><span>Partners: Michinobu</span><br><span>Parents:</span><br><span>Children:</span><br><span>Siblings:</span><br><br><span>Alters&#39; Role:</span><br><span>Extra Info:</span></p>
                   <hr id="divider03" class="full screen">
                </section>
                <section id="usui-section">
+                  <div class="placeholder"></div>
                   <hr id="divider03" class="full screen">
                   <p id="text07" data-scroll-id="michinobu" data-scroll-behavior="previous" data-scroll-offset="0" class="style1"><span>Michinobu Usui ⾅井路伸</span><br><br><span>Age (Self): 17</span><br><span>Age (Visible): 17</span><br><span>Age (Stressed): 17</span><br><span>Maturity: Mature</span><br><span>Height: 5&#39;4</span><br><span>Birthday: May 31st</span><br><br><span>Gender: Girl</span><br><span>Pronouns: She/Her</span><br><span>Orientation: ?</span><br><br><span>Partners: Katsumi</span><br><span>Parents:</span><br><span>Children:</span><br><span>Siblings: Gumi</span><br><br><span>Alters&#39; Role:</span><br><span>Extra Info:</span></p>
                   <hr id="divider03" class="full screen">
@@ -89,6 +103,7 @@
                   <hr id="divider03" class="full screen">
                </section>
                <section id="uchiyama-section">
+                  <div class="placeholder"></div>
                   <hr id="divider03" class="full screen">
                   <p id="text09" data-scroll-id="shion" data-scroll-behavior="previous" data-scroll-offset="0" class="style1"><span>Shion Uchiyama 内⼭初音</span><br><br><span>Age (Self): 16</span><br><span>Age (Visible): 17</span><br><span>Age (Stressed): 16</span><br><span>Maturity: Immature</span><br><span>Height: 5&#39;3</span><br><span>Birthday: September 2nd</span><br><br><span>Gender: Girl</span><br><span>Pronouns: She/Her</span><br><span>Orientation: Lesbian</span><br><br><span>Partners:</span><br><span>Parents: Momiji, Fuyutsugu</span><br><span>Children:</span><br><span>Siblings: Kureha</span><br><br><span>Alters&#39; Role:</span><br><span>Extra Info: Twin of Kureha.</span></p>
                   <hr id="divider03" class="full screen">
@@ -100,6 +115,7 @@
                   <hr id="divider03" class="full screen">
                </section>
                <section id="kaneko-section">
+                  <div class="placeholder"></div>
                   <hr id="divider03" class="full screen">
                   <p id="text16" data-scroll-id="syoukou" data-scroll-behavior="previous" data-scroll-offset="0" class="style1"><span>Shōkō Kaneko 金子青湖</span><br><br><span>Age (Self): 16</span><br><span>Age (Visible): 16</span><br><span>Age (Stessed): ?</span><br><span>Maturity: Immature</span><br><span>Height: 5&#39;0</span><br><span>Birthday: Jan 5th</span><br><br><span>Gender: Bigender</span><br><span>Pronouns: She/Her, He/Him</span><br><span>Orientation: Gynesexual, Aro</span><br><br><span>Partners:</span><br><span>Parents:</span><br><span>Children:</span><br><span>Siblings: Koharu</span><br><br><span>Alters&#39; Role:</span><br><span>Extra Info: Tomboyish. Into gaming.</span></p>
                   <hr id="divider03" class="full screen">
@@ -107,11 +123,13 @@
                   <hr id="divider03" class="full screen">
                </section>
                <section id="ogawa-section">
+                  <div class="placeholder"></div>
                   <hr id="divider03" class="full screen">
                   <p id="text15" data-scroll-id="kokone" data-scroll-behavior="previous" data-scroll-offset="0" class="style1"><span>Kokone Ogawa ⼩川湖々嶺</span><br><br><span>Age (Self): 8</span><br><span>Age (Visible): 8</span><br><span>Age (Stressed): 8</span><br><span>Maturity: Mature</span><br><span>Height: 3’8</span><br><span>Birthday: May 27th</span><br><br><span>Gender: Girl</span><br><span>Pronouns: She/Her</span><br><span>Orientation: ?</span><br><br><span>Partners:</span><br><span>Parents:</span><br><span>Children:</span><br><span>Siblings:</span><br><br><span>Alters&#39; Role: Little</span><br><span>Extra Info:</span></p>
                   <hr id="divider03" class="full screen">
                </section>
                <section id="hikami-section">
+                  <div class="placeholder"></div>
                   <hr id="divider03" class="full screen">
                   <p id="text14" data-scroll-id="nikkou" data-scroll-behavior="previous" data-scroll-offset="0" class="style1"><span>Nikkō Hikami 日神日光</span><br><br><span>Age (Self): ?</span><br><span>Age (Visible): 9</span><br><span>Age (Stressed): ?</span><br><span>Maturity: ?</span><br><span>Height: 4’8</span><br><span>Birthday: April 8th</span><br><br><span>Gender: Librafem</span><br><span>Pronouns: She/Her</span><br><span>Orientation: ?</span><br><br><span>Partners: Tomoe</span><br><span>Parents:</span><br><span>Children:</span><br><span>Siblings: Mito</span><br><br><span>Alters&#39; Role:</span><br><span>Extra Info:</span></p>
                   <hr id="divider03" class="full screen">
@@ -119,6 +137,7 @@
                   <hr id="divider03" class="full screen">
                </section>
                <section id="umemoto-section">
+                  <div class="placeholder"></div>
                   <hr id="divider03" class="full screen">
                   <p id="text14" data-scroll-id="yuu" data-scroll-behavior="previous" data-scroll-offset="0" class="style1"><span>Yuu Umemoto 梅本湧</span><br><br><span>Age (Self): 13</span><br><span>Age (Visible): 13</span><br><span>Age (Stressed): 13</span><br><span>Maturity: Immature</span><br><span>Height: 4’7</span><br><span>Birthday: April 2th</span><br><br><span>Gender: Girl</span><br><span>Pronouns: She/Her</span><br><span>Orientation: Bi</span><br><br><span>Partners: </span><br><span>Parents:</span><br><span>Children:</span><br><span>Siblings: </span><br><br><span>Alters&#39; Role:</span><br><span>Extra Info: Very sensitive, <spoiler>do not be sexual when they are around<spoiler>.</span></p>
                   <hr id="divider03" class="full screen">
