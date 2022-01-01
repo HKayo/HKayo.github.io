@@ -32,7 +32,12 @@
                   </h1>
                   <p id="text12" class="style1"><span>Name: 佳世 (Kayo)</span><br><span>Age: 17</span><br><span>Tag:（佳世）</span><br><br><span><span style="color:#FF0000"> ! Please Read ! </span>Triple age explanation; (It's complicated)<span style="color:#FF0000";> ! Please Read ! </span></span><br><span>Age (Self): is how old they say they are.</span><br><span>Age (Visible): is how old the alter is to other alters.</span><br><span>Age (Stressed): is how mature an alter is when stressed. (Based on our own life)</span><br><span>Maturity: is how mature an alter is regularly.</span></p>
                   <div id="container01" class="container columns">
-                     <div class="wrapper">
+                     <script>
+  window.onload = function() {
+    let placeholders = document.getElementsByClassName("placeholder")
+    for (let element of placeholders) {
+      element.innerHTML = `
+        <div class="wrapper">
                         <div class="inner">
                            <div>
                               <ul id="buttons01" class="style1 buttons">
@@ -56,12 +61,17 @@
                               </ul>
                            </div>
                         </div>
+                        <li><a href="#home" class="button n00">Back</a></li>
                      </div>
+        `
+    }
+  }
+
+</script>
                   </div>
                </section>
                <ul id="buttons12" class="style1 buttons">
-                           <li><a href="#home" class="button n00">Back</a></li>
-                        </ul><br><br><br><br><br><br><br><br><br>
+                  <div class="placeholder"></div>
                <section id="furuya-section">
                   <hr id="divider03" class="full screen">
                   <p id="text01" data-scroll-id="aiyu" data-scroll-behavior="previous" data-scroll-offset="0" class="style1"><span>Aiyu Furuya 古⾕愛苺夢</span><br><br><span>Age (Self): 17</span><br><span>Age (Visible): 18</span><br><span>Age (Stressed): 16</span><br><span>Maturity: Immature</span><br><span>Height: 5’10</span><br><span>Birthday: Feb 15th</span><br><br><span>Gender: Male</span><br><span>Pronouns: She/Her</span><br><span>Orientation: Straight</span><br><br><span>Partners: Ryūku</span><br><span>Parents:</span><br><span>Children: Tomoe</span><br><span>Siblings:</span><br><br><span>Alters&#39; Role:</span><br><span>Extra Info:</span></p>
