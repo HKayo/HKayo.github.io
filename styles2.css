@@ -37,4 +37,5 @@ body {
   padding: 0 2.5rem;
   font-size: 50px;
   border-radius: 30px;
+  outline: none;
 }
