@@ -1,10 +1,17 @@
 h1 {
   font-family: "atkinson hyperlegible";
   font-size: 50px;
-  font-weight 400;
+  font-weight 100;
+  text-align center;
+  color: #ffffff;
 }
 p {
   font-family: "atkinson hyperlegible";
   font-size: 25px;
-  font-weight 400;
+  font-weight 100;
+  text-align left;
+  color: #ffffff;
+}
+background {
+  color: #353535;
 }
