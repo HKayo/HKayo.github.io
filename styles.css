@@ -493,12 +493,16 @@ p br + br {
   content: " ";
 }
 
-h1 .li,
+h1 .li {
+  display: list-item;
+  padding-left: 40px;
+  margin: 0.75em 0 0 1em;
+}
 h2 .li,
 h3 .li,
 p .li {
   display: list-item;
-  padding-left: 0.5em;
+  padding-left: 40px;
   margin: 0.75em 0 0 1em;
 }
 
@@ -509,7 +513,14 @@ p.style1 br + br {
   margin-top: 0.6rem;
 }
 
-h1.style1,
+h1.style1 {
+  text-align: left;
+  color: #ffffff;
+  font-family: "Atkinson Hyperlegible", sans-serif;
+  font-size: 50px;
+  line-height: 30px;
+  font-weight: 400;
+}
 h2.style1,
 h3.style1,
 p.style1 {
