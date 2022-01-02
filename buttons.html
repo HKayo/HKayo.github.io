@@ -1,36 +1,41 @@
-<script>
-  window.onload = function() {
-    let placeholders = document.getElementsByClassName("placeholder")
-    for (let element of placeholders) {
-      element.innerHTML = `
-        <div id="container01" class="container columns">
-  <div class="wrapper">
-    <div class="inner">
-      <div>
-        <ul id="buttons01" class="style1 buttons">
-          <li><a href="furuya.hmtl" class="button n01">Furuya 古⾕</a></li>
-          <li><a href="aoyama.hmtl" class="button n02">Aoyama ⻘⼭</a></li>
-          <li><a href="natsuiro.hmtl" class="button n03">Natsuiro 夏⾊</a></li>
-        </ul>
-      </div>
-      <div>
-        <ul id="buttons02" class="style1 buttons">
-          <li><a href="usui.hmtl" class="button n01">Usui ⾅井</a></li>
-          <li><a href="uchiyama.hmtl" class="button n02">Uchiyama 内山</a></li>
-          <li><a href="kaneko.hmtl" class="button n03">Kaneko 金子</a></li>
-        </ul>
-      </div>
-      <div>
-        <ul id="buttons09" class="style1 buttons">
-          <li><a href="ogawa.hmtl" class="button n01">Ogawa 小川</a></li>
-          <li><a href="hikami.hmtl" class="button n02">Hikami 日神</a></li>
-          <li><a href="umemoto.html" class="button n03">Umemoto 梅本</a></li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</div>
-        `
+<head>
+  <link href="styles.css">
+</head>
+<body>
+  <script>
+    window.onload = function() {
+      let placeholders = document.getElementsByClassName("placeholder")
+      for (let element of placeholders) {
+        element.innerHTML = `
+          <div id="container01" class="container columns">
+            <div class="wrapper">
+              <div class="inner">
+                <div>
+                  <ul id="buttons01" class="style1 buttons">
+                    <li><a href="furuya.hmtl" class="button n01">Furuya 古⾕</a></li>
+                    <li><a href="aoyama.hmtl" class="button n02">Aoyama ⻘⼭</a></li>
+                    <li><a href="natsuiro.hmtl" class="button n03">Natsuiro 夏⾊</a></li>
+                  </ul>
+                </div>
+                <div>
+                  <ul id="buttons02" class="style1 buttons">
+                    <li><a href="usui.hmtl" class="button n01">Usui ⾅井</a></li>
+                    <li><a href="uchiyama.hmtl" class="button n02">Uchiyama 内山</a></li>
+                    <li><a href="kaneko.hmtl" class="button n03">Kaneko 金子</a></li>
+                  </ul>
+                </div>
+                <div>
+                  <ul id="buttons09" class="style1 buttons">
+                    <li><a href="ogawa.hmtl" class="button n01">Ogawa 小川</a></li>
+                    <li><a href="hikami.hmtl" class="button n02">Hikami 日神</a></li>
+                    <li><a href="umemoto.html" class="button n03">Umemoto 梅本</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          `
+      }
     }
-  }
-</script>
+  </script>
+</body>
