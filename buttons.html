@@ -1,4 +1,9 @@
-<div id="container01" class="container columns">
+<script>
+  window.onload = function() {
+    let placeholders = document.getElementsByClassName("placeholder")
+    for (let element of placeholders) {
+      element.innerHTML = `
+        <div id="container01" class="container columns">
   <div class="wrapper">
     <div class="inner">
       <div>
@@ -25,3 +30,7 @@
     </div>
   </div>
 </div>
+        `
+    }
+  }
+</script>
