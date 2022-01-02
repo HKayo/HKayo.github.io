@@ -1,8 +1,10 @@
 h1 {
   font-family: "atkinson hyperlegible";
   font-size: 50px;
+  font-weight 400;
 }
 p {
   font-family: "atkinson hyperlegible";
   font-size: 25px;
+  font-weight 400;
 }
