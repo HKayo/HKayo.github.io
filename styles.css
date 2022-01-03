@@ -1,35 +1,31 @@
 @import url("https://fonts.googleapis.com/css?family=Atkinson+Hyperlegible:400,400italic");
 html {
+	align-items: center;
 	text-decoration: none;
-	font-family: "Atkinson Hyperlegible", sans-serif;
 	font-weight: 400;
-	font-size: 2.5vw;
+	font-family: "Atkinson Hyperlegible", sans-serif;
+	font-size: 75%;
 	color: #ededed;
-	line-height: 100%;
+	line-height: 1em;
 	text-align: center;
-	max-width: 1500px;
+	max-width: 1440px;
 	margin: auto;
-	background-color: #000000;
+	background-color: #353535;
 }
 h1 {
-	font-size: 170%;
+	font-size: 1.25em;
 	text-align: center;
 }
 h2 {
-	font-size: 140%;
+	font-size: 1.125em;
 	text-align: center;
 }
 p {
+      font-size: 1em;
 	text-align: left;
 }
-body {
-	background-color: #353535;
-	margin: 0;
-	padding: 2.3%;
-	text-align: center;
-}
 a {
-	margin: 2.5%;
+      color: #ededed;
 	align-items: center;
 	justify-content: center;
 	max-width: 100%;
@@ -37,12 +33,13 @@ a {
 	text-decoration: none;
 	vertical-align: middle;
 	display: inline-flex;
-	height: 65px;
+      font-size: 1.125em;
+	height: 2.5em;
+      width: 100%;
 	vertical-align: middle;
-	padding: 0 0;
 	font-family: "Atkinson Hyperlegible", sans-serif;
 	font-weight: 400;
-	border-radius: 25px;
+	border-radius: 1.25em;
 	background-color: #202020;
 	direction: var(--site-language-direction);
 	transition: transform 0.125s ease, color 0.125s ease,
@@ -51,22 +48,14 @@ a {
 a:hover {
 	transform: scale(1.025);
 }
-a:link {
-	text-decoration: none;
-	color: #ededed;
-	font-weight: 400;
-}
-a:visited {
-	color: #ededed;
-}
 .columns {
+      width: 100%;
+      column-gap: 0.625em;
+      line-height: 4em;
 	columns: 3;
 	display: inline-block;
 	padding: 0;
 	margin: 0;
-}
-.columns div a {
-	margin: 2.5% 0;
 }
 .inner {
 	text-align: center;
@@ -75,39 +64,30 @@ a:visited {
 }
 .furuya {
 	background-color: #38b24d;
-	width: 100%;
 }
 .aoyama {
 	background-color: #47bce9;
-	width: 100%;
 }
 .natsuiro {
 	background-color: #fd7e15;
-	width: 100%;
 }
 .usui {
 	background-color: #4363ec;
-	width: 100%;
 }
 .uchiyama {
 	background-color: #e03030;
-	width: 100%;
 }
 .kaneko {
 	background-color: #9b37b5;
-	width: 100%;
 }
 .ogawa {
 	background-color: #3ed1c2;
-	width: 100%;
 }
 .hikami {
 	background-color: #fcc31a;
-	width: 100%;
 }
 .umemoto {
 	background-color: #9decc5;
-	width: 100%;
 }
 .spoiler {
 	background-color: #252525;
