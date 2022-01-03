@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Atkinson+Hyperlegible:400,400italic');
+@import url("https://fonts.googleapis.com/css?family=Atkinson+Hyperlegible:400,400italic");
 * {
   text-decoration: none;
-  font-family: 'Atkinson Hyperlegible', sans-serif;
+  font-family: "Atkinson Hyperlegible", sans-serif;
   font-weight: 400;
   color: #ededed;
-  line-height: 30px;
+  line-height: 5px;
 }
 h1 {
   font-size: 50px;
@@ -30,8 +30,8 @@ body {
   vertical-align: middle;
   white-space: nowrap;
   display: inline-flex;
-  width: 30rem;
-  height: 5rem;
+  width: 8cm;
+  height: 2cm;
   line-height: 5rem;
   vertical-align: middle;
   padding: 0 2.5rem;
