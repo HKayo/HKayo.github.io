@@ -101,7 +101,108 @@ a:hover {
   width: 100%;
 }
 
-@media only screen and (min-width: 824px) {
+@media only screen and (min-width: 767px) {
+  html {
+  align-items: center;
+  text-decoration: none;
+  font-weight: 400;
+  font-family: "Atkinson Hyperlegible", sans-serif;
+  font-size: 150%;
+  color: #ededed;
+  line-height: 1em;
+  text-align: center;
+  max-width: 1440px;
+  margin: auto;
+  background-color: #353535;
+}
+h1 {
+  font-size: 2em;
+  text-align: center;
+}
+h2 {
+  font-size: 1.5em;
+  text-align: center;
+}
+p {
+  font-size: 1em;
+  text-align: left;
+}
+a {
+  color: #ededed;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  display: inline-flex;
+  font-size: 1.5em;
+  height: 2.5em;
+  width: 100%;
+  vertical-align: middle;
+  font-family: "Atkinson Hyperlegible", sans-serif;
+  font-weight: 400;
+  border-radius: 1.25em;
+  background-color: #202020;
+  direction: var(--site-language-direction);
+  transition: transform 0.125s ease, color 0.125s ease,
+    background-color 0.125s ease, border-color 0.125s ease;
+}
+a:hover {
+  transform: scale(1.025);
+}
+.columns {
+  width: 100%;
+  column-gap: 0.625em;
+  line-height: 4.5em;
+  columns: 3;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+.inner {
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+}
+.furuya {
+  background-color: #38b24d;
+}
+.aoyama {
+  background-color: #47bce9;
+}
+.natsuiro {
+  background-color: #fd7e15;
+}
+.usui {
+  background-color: #4363ec;
+}
+.uchiyama {
+  background-color: #e03030;
+}
+.kaneko {
+  background-color: #9b37b5;
+}
+.ogawa {
+  background-color: #3ed1c2;
+}
+.hikami {
+  background-color: #fcc31a;
+}
+.umemoto {
+  background-color: #9decc5;
+}
+.spoiler {
+  background-color: #252525;
+  color: #252525;
+}
+.spoiler:hover {
+  background-color: #303030;
+  color: #ededed;
+}
+}
+
+@media only screen and (min-width: 1280px) {
   html {
   align-items: center;
   text-decoration: none;
@@ -111,7 +212,6 @@ a:hover {
   color: #ededed;
   line-height: 0.5em;
   text-align: center;
-  max-width: 1440px;
   margin: auto;
   background-color: #353535;
 }
