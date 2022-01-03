@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Uchiyama 内山</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div id="container">
+    <a class="btn" href="index.html">Home</a>
+  </div>
+  <h1>Uchiyama 内山</h1>
+  <hr>
+  <p data-scroll-id="shion" data-scroll-behavior="previous" data-scroll-offset="0" class="style1">Shion Uchiyama 内⼭初音</h2>
+  <p>Age (Self): 16</p>
+  <p>Age (Visible): 17</p>
+  <p>Age (Stressed): 16</p>
+  <p>Maturity: Immature</p>
+  <p>Height: 5&#39;3</p>
+  <p>Birthday: September 2nd</p>
+  <br>
+  <p>Gender: Girl</p>
+  <p>Pronouns: She/Her</p>
+  <p>Orientation: Lesbian</p>
+  <br>
+  <p>Partners:</p>
+  <p>Parents: Momiji, Fuyutsugu</p>
+  <p>Children:</p>
+  <p>Siblings: Kureha</p>
+  <br>
+  <p>Alters&#39; Role:</p>
+  <p>Extra Info: Twin of Kureha.</p>
+  <hr>
+  <p data-scroll-id="kureha" data-scroll-behavior="previous" data-scroll-offset="0" class="style1">Kureha Uchiyama 内⼭暮葉</h2>
+  <p>Age (Self): 16</p>
+  <p>Age (Visible): 16</p>
+  <p>Age (Stressed): 16</p>
+  <p>Maturity: Mature</p>
+  <p>Height: 5&#39;1</p>
+  <p>Birthday: September 2nd</p>
+  <br>
+  <p>Gender: Girl</p>
+  <p>Pronouns: She/Her</p>
+  <p>Orientation: Bi</p>
+  <br>
+  <p>Partners:</p>
+  <p>Parents: Momiji, Fuyutsugu</p>
+  <p>Children:</p>
+  <p>Siblings: Shion</p>
+  <br>
+  <p>Alters&#39; Role:</p>
+  <p>Extra Info: Likes programming. Twin of Shion.</p>
+  <hr>
+  <p data-scroll-id="momiji" data-scroll-behavior="previous" data-scroll-offset="0" class="style1">Momiji Uchiyama 内⼭椛</h2>
+  <p>Age (Self): 30</p>
+  <p>Age (Visible): 30</p>
+  <p>Age (Stressed): 21</p>
+  <p>Maturity: Mature</p>
+  <p>Height: 5&#39;0</p>
+  <p>Birthday: July 23rd</p>
+  <br>
+  <p>Gender: Girl</p>
+  <p>Pronouns: She/Her</p>
+  <p>Orientation: Bi</p>
+  <br>
+  <p>Partners: Fuyutsugu</p>
+  <p>Parents:</p>
+  <p>Children: Kureha, Shion</p>
+  <p>Siblings:</p>
+  <br>
+  <p>Alters&#39; Role:</p>
+  <p>Extra Info:</p>
+  <hr>
+  <p data-scroll-id="fuyutsugu" data-scroll-behavior="previous" data-scroll-offset="0" class="style1">Fuyutsugu Uchiyama 内⼭冬嗣</h2>
+  <p>Age (Self): 29</p>
+  <p>Age (Visible): 29</p>
+  <p>Age (Stressed): 20</p>
+  <p>Maturity: Mature</p>
+  <p>Height: 5&#39;6</p>
+  <p>Birthday: January 4th</p>
+  <br>
+  <p>Gender: Male</p>
+  <p>Pronouns: He/Him</p>
+  <p>Orientation: Pan</p>
+  <br>
+  <p>Partners: Momiji</p>
+  <p>Parents:</p>
+  <p>Children: Kureha, Shion</p>
+  <p>Siblings:</p>
+  <br>
+  <p>Alters&#39; Role:</p>
+  <p>Extra Info:</p>
+  <hr>
+
+</body>
+
+</html>
