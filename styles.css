@@ -48,6 +48,7 @@ a:hover {
 }
 .columns {
   columns: 3 400px;
+  width: 1245px;
 }
 .inner {
   text-align: center;
@@ -86,7 +87,4 @@ a:hover {
 .spoiler:hover {
   background-color: #303030;
   color: #ededed;
-}
-.buttonsdiv {
-  width: 415px;
 }
