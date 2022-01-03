@@ -79,3 +79,11 @@ a:hover {
 .umemoto {
   background-color: #9decc5;
 }
+.spoiler {
+  background-color: #252525;
+  color: #252525;
+}
+.spoiler:hover {
+  background-color: #303030;
+  color: #ededed;
+}
