@@ -22,7 +22,7 @@ body {
   background-color: #353535;
 }
 a {
-  margin-top: 20px;
+  margin: 15px;
   align-items: center;
   justify-content: center;
   max-width: 100%;
@@ -47,36 +47,35 @@ a:hover {
   transform: scale(1.025);
 }
 .columns {
-  columns: 3 8cm;
+  columns: 3 400px;
 }
 .inner {
   text-align: center;
-  width; 24cm;
 }
 .furuya {
-  background-color: #38B24D;
+  background-color: #38b24d;
 }
 .aoyama {
-  background-color: #47BCE9;
+  background-color: #47bce9;
 }
 .natsuiro {
-  background-color: #FD7E15;
+  background-color: #fd7e15;
 }
 .usui {
-  background-color: #4363EC;
+  background-color: #4363ec;
 }
 .uchiyama {
-  background-color: #E03030;
+  background-color: #e03030;
 }
 .kaneko {
-  background-color: #9B37B5;
+  background-color: #9b37b5;
 }
 .ogawa {
-  background-color: #3ED1C2;
+  background-color: #3ed1c2;
 }
 .hikami {
-  background-color: #FCC31A;
+  background-color: #fcc31a;
 }
 .umemoto {
-  background-color: #9DECC5;
+  background-color: #9decc5;
 }
