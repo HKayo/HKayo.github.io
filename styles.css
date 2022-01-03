@@ -21,20 +21,19 @@ p {
 body {
   background-color: #353535;
 }
-.btn {
+a {
+  margin-top: 20px;
   align-items: center;
   justify-content: center;
   max-width: 100%;
   text-align: center;
   text-decoration: none;
   vertical-align: middle;
-  white-space: nowrap;
   display: inline-flex;
-  width: 8cm;
-  height: 2cm;
-  line-height: 5rem;
+  width: 400px;
+  height: 65px;
   vertical-align: middle;
-  padding: 0 2.5rem;
+  padding: 0 0;
   font-size: 50px;
   font-family: "Atkinson Hyperlegible", sans-serif;
   font-weight: 400;
@@ -44,9 +43,40 @@ body {
   transition: transform 0.125s ease, color 0.125s ease,
     background-color 0.125s ease, border-color 0.125s ease;
 }
-#container {
-  text-align: center;
+a:hover {
+  transform: scale(1.025);
 }
-.btn:hover {
-  transform: scale(1.095);
+.columns {
+  columns: 3 8cm;
+}
+.inner {
+  text-align: center;
+  width; 24cm;
+}
+.furuya {
+  background-color: #38B24D;
+}
+.aoyama {
+  background-color: #47BCE9;
+}
+.natsuiro {
+  background-color: #FD7E15;
+}
+.usui {
+  background-color: #4363EC;
+}
+.uchiyama {
+  background-color: #E03030;
+}
+.kaneko {
+  background-color: #9B37B5;
+}
+.ogawa {
+  background-color: #3ED1C2;
+}
+.hikami {
+  background-color: #FCC31A;
+}
+.umemoto {
+  background-color: #9DECC5;
 }
