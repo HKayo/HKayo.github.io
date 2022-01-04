@@ -2,7 +2,7 @@
 html {
   align-items: center;
   text-decoration: none;
-  font-weight: 400;
+  font-weight: 100;
   font-family: "Atkinson Hyperlegible", sans-serif;
   font-size: 75%;
   color: #ededed;
@@ -13,14 +13,17 @@ html {
   background-color: #353535;
 }
 h1 {
+  font-weight: 100;
   font-size: 1.25em;
   text-align: center;
 }
 h2 {
+  font-weight: 100;
   font-size: 1.125em;
   text-align: center;
 }
 p {
+  font-weight: 100;
   font-size: 1em;
   text-align: left;
 }
@@ -169,32 +172,6 @@ a:hover {
 }
 
 @media only screen and (min-width: 1280px) {
-  html {
-  align-items: center;
-  text-decoration: none;
-  font-weight: 100;
-  font-family: "Atkinson Hyperlegible", sans-serif;
-  font-size: 150%;
-  color: #ededed;
-  line-height: 0.5rem;
-  text-align: center;
-  margin: auto;
-  background-color: #353535;
-}
-h1 {
-  font-weight: 100;
-  font-size: 2rem;
-  text-align: center;
-}
-h2 {
-  font-weight: 100;
-  font-size: 1.5rem;
-  text-align: center;
-}
-p {
-  font-size: 1rem;
-  text-align: left;
-}
 a {
   color: #ededed;
   align-items: center;
@@ -215,22 +192,5 @@ a {
   direction: var(--site-language-direction);
   transition: transform 0.125s ease, color 0.125s ease,
     background-color 0.125s ease, border-color 0.125s ease;
-}
-a:hover {
-  transform: scale(1.025);
-}
-.columns {
-  width: 90%;
-  column-gap: 0.5rem;
-  line-height: 4.5rem;
-  columns: 3;
-  display: inline-block;
-  padding: 0;
-  margin: 0;
-}
-.inner {
-  text-align: center;
-  display: inline-block;
-  width: 100%;
 }
 }
