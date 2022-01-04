@@ -210,3 +210,19 @@ a {
   margin: 0;
 }
 }
+
+@media only screen and (min-width: 5120px) {
+  html {
+  font-size: 400%;
+  max-width: 97.5%;
+}
+.columns {
+  width: 70%;
+  column-gap: 0.375rem;
+  line-height: 4.5rem;
+  columns: 3;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+}
