@@ -117,6 +117,7 @@ a:hover {
   font-weight: 100;
   font-family: "Atkinson Hyperlegible", sans-serif;
   font-size: 150%;
+  letter-spacing: 0rem;
   color: #ededed;
   line-height: 0.5rem;
   text-align: center;
@@ -146,6 +147,7 @@ a {
   text-decoration: none;
   vertical-align: middle;
   display: inline-flex;
+  word-spacing: 0rem;
   font-size: 1.125rem;
   height: 4rem;
   width: 24rem;
