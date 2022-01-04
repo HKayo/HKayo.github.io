@@ -194,3 +194,19 @@ a {
     background-color 0.125s ease, border-color 0.125s ease;
 }
 }
+
+@media only screen and (min-width: 2561px) {
+  html {
+  font-size: 250%;
+  max-width: 95%;
+}
+.columns {
+  width: 90%;
+  column-gap: 0.125rem;
+  line-height: 4.5rem;
+  columns: 3;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+}
