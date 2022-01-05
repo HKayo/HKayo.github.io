@@ -1,9 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Atkinson+Hyperlegible:400,400italic");
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500&display=swap');
 html {
   align-items: center;
   text-decoration: none;
   font-weight: 400;
-  font-family: "Atkinson Hyperlegible", sans-serif;
+  font-family: 'Atkinson Hyperlegible', 'M PLUS Rounded 1c', sans-serif;
   font-size: 100%;
   letter-spacing: 0.125rem;
   color: #ededed;
@@ -46,7 +47,6 @@ a {
   height: 5rem;
   width: 100%;
   vertical-align: middle;
-  font-family: "Atkinson Hyperlegible", sans-serif;
   font-weight: 600;
   border-radius: 2.5rem;
   background-color: #202020;
@@ -115,7 +115,6 @@ a:hover {
   align-items: center;
   text-decoration: none;
   font-weight: 100;
-  font-family: "Atkinson Hyperlegible", sans-serif;
   font-size: 150%;
   letter-spacing: 0rem;
   color: #ededed;
@@ -152,7 +151,6 @@ a {
   height: 4rem;
   width: 24rem;
   vertical-align: middle;
-  font-family: "Atkinson Hyperlegible", sans-serif;
   font-weight: 400;
   border-radius: 2rem;
   background-color: #202020;
@@ -193,7 +191,6 @@ a {
   height: 4rem;
   width: 24rem;
   vertical-align: middle;
-  font-family: "Atkinson Hyperlegible", sans-serif;
   font-weight: 400;
   border-radius: 2rem;
   background-color: #202020;
