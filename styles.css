@@ -201,7 +201,7 @@ a {
 }
 .columns {
   width: 90%;
-  column-gap: 0.125rem;
+  column-gap: 0.25rem;
   line-height: 4.5rem;
   columns: 3;
   display: inline-block;
