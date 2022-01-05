@@ -4,7 +4,7 @@ html {
   text-decoration: none;
   font-weight: 400;
   font-family: 'M PLUS Rounded 1c', sans-serif;
-  font-size: 100%;
+  font-size: 125%;
   letter-spacing: 0.125rem;
   color: #ededed;
   line-height: 1.125rem;
@@ -113,7 +113,7 @@ a:hover {
   html {
   align-items: center;
   text-decoration: none;
-  font-size: 150%;
+  font-size: 175%;
   letter-spacing: 0rem;
   color: #ededed;
   line-height: 0.5rem;
@@ -196,7 +196,7 @@ a {
 
 @media only screen and (min-width: 2560px) {
   html {
-  font-size: 250%;
+  font-size: 275%;
   max-width: 95%;
 }
 .columns {
@@ -212,7 +212,7 @@ a {
 
 @media only screen and (min-width: 5120px) {
   html {
-  font-size: 400%;
+  font-size: 425%;
   max-width: 97.5%;
 }
 .columns {
