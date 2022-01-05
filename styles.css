@@ -161,7 +161,7 @@ a {
     background-color 0.125s ease, border-color 0.125s ease;
 }
 a:hover {
-  transform: scale(1.075);
+  transform: scale(1.05);
 }
 .columns {
   width: 90%;
